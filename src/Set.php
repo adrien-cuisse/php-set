@@ -46,7 +46,7 @@ final class Set implements SetInterface
 	}
 
 	/** @see SetInterface */
-	public function contains(StorableInterface $item): bool
+	final public function contains(StorableInterface $item): bool
 	{
 		foreach ($this->items as $stored) {
 			if ($stored->getIdentifier() === $item->getIdentifier()) {
@@ -62,7 +62,7 @@ final class Set implements SetInterface
 	 * 
 	 * @return boolean - false if the item is stored, true otherwise
 	 */
-	private function doesNotContain(StorableInterface $item): bool
+	final private function doesNotContain(StorableInterface $item): bool
 	{
 		return false === $this->contains($item);
 	}

@@ -14,7 +14,7 @@
 	},
 	"autoload": {
         "psr-4": {
-            "AR7\\": "src/"
+            "AR7\\Sets\\": "src/"
         }
     },
     "autoload-dev": {

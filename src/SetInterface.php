@@ -1,8 +1,8 @@
 <?php
 
-namespace AR7;
+namespace AR7\Sets;
 
-use AR7\StorableInterface;
+use AR7\Sets\StorableInterface;
 
 /**
  * A set of objects with the same class, unique by a given identifier

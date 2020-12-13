@@ -2,8 +2,8 @@
 
 namespace AR7\Tests;
 
-use AR7\Set;
-use AR7\StorableInterface;
+use AR7\Sets\Set;
+use AR7\Sets\StorableInterface;
 use PHPUnit\Framework\TestCase;
 
 class SetTest extends TestCase

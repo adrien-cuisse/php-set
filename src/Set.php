@@ -1,9 +1,9 @@
 <?php
 
-namespace AR7;
+namespace AR7\Sets;
 
-use AR7\SetInterface;
-use AR7\StorableInterface;
+use AR7\Sets\SetInterface;
+use AR7\Sets\StorableInterface;
 
 /** @see SetInterface */
 final class Set implements SetInterface
